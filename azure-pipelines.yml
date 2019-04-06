@@ -22,7 +22,7 @@ steps:
     projects: '**/*Tests/*.csproj'
     arguments: '--configuration $(buildConfiguration) --collect "Xplat Code coverage"'
 
-- script: dotnet test <test-project> --logger trx
+- script: dotnet test **/*Tests/*.csproj --logger trx
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
