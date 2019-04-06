@@ -18,15 +18,15 @@ steps:
 
 #- script: dotnet test
 #  displayName: 'testingIsOn'
-- task: DotNetCoreCLI@2
-  inputs:
-    command: test
-    projects: '**/*Tests/*.csproj'
-    arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
-
-#- script: dotnet test **/*Tests/*.csproj --logger trx
-#- task: PublishTestResults@2
-#  condition: succeededOrFailed()
+#- task: DotNetCoreCLI@2
 #  inputs:
-#    testRunner: VSTest
-#    testResultsFiles: '**/*.trx'
+ #   command: test
+  #  projects: '**/*Tests/*.csproj'
+   # arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
+
+- script: dotnet test **/*Tests/*.csproj --logger trx
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
