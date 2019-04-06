@@ -16,15 +16,17 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: test
-    projects: '**/*Tests/*.csproj'
-    arguments: '--configuration $(buildConfiguration) --collect "Xplat Code coverage"'
+- script: dotnet test **/*Tests/*.csproj
+  displayName: 'testingIsOn'
+#- task: DotNetCoreCLI@2
+#  inputs:
+#    command: test
+#    projects: '**/*Tests/*.csproj'
+#    arguments: '--configuration $(buildConfiguration) --collect "Xplat Code coverage"'
 
-- script: dotnet test **/*Tests/*.csproj --logger trx
-- task: PublishTestResults@2
-  condition: succeededOrFailed()
-  inputs:
-    testRunner: VSTest
-    testResultsFiles: '**/*.trx'
+#- script: dotnet test **/*Tests/*.csproj --logger trx
+#- task: PublishTestResults@2
+#  condition: succeededOrFailed()
+#  inputs:
+#    testRunner: VSTest
+#    testResultsFiles: '**/*.trx'
