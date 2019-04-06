@@ -1,0 +1,9 @@
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\bin\Debug\netcoreapp2.0\PrimeService.deps.json
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\bin\Debug\netcoreapp2.0\PrimeService.dll
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\bin\Debug\netcoreapp2.0\PrimeService.pdb
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\obj\Debug\netcoreapp2.0\PrimeService.csprojAssemblyReference.cache
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\obj\Debug\netcoreapp2.0\PrimeService.csproj.CoreCompileInputs.cache
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\obj\Debug\netcoreapp2.0\PrimeService.AssemblyInfoInputs.cache
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\obj\Debug\netcoreapp2.0\PrimeService.AssemblyInfo.cs
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\obj\Debug\netcoreapp2.0\PrimeService.dll
+C:\Users\kaghai\source\repos\unit_testing\PrimeService\obj\Debug\netcoreapp2.0\PrimeService.pdb

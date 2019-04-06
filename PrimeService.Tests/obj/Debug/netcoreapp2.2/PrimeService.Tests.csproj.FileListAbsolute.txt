@@ -1,0 +1,17 @@
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\PrimeService.Tests.deps.json
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\PrimeService.Tests.runtimeconfig.json
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\PrimeService.Tests.runtimeconfig.dev.json
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\PrimeService.Tests.dll
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\PrimeService.Tests.pdb
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\PrimeService.dll
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\bin\Debug\netcoreapp2.2\PrimeService.pdb
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\obj\Debug\netcoreapp2.2\PrimeService.Tests.csprojAssemblyReference.cache
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\obj\Debug\netcoreapp2.2\PrimeService.Tests.csproj.CoreCompileInputs.cache
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\obj\Debug\netcoreapp2.2\PrimeService.Tests.AssemblyInfoInputs.cache
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\obj\Debug\netcoreapp2.2\PrimeService.Tests.AssemblyInfo.cs
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\obj\Debug\netcoreapp2.2\PrimeService.Tests.csproj.CopyComplete
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\obj\Debug\netcoreapp2.2\PrimeService.Tests.dll
+C:\Users\kaghai\source\repos\unit_testing\PrimeService.Tests\obj\Debug\netcoreapp2.2\PrimeService.Tests.pdb
