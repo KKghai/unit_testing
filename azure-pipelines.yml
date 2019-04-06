@@ -21,3 +21,10 @@ steps:
     command: test
     projects: '**/*Tests/*.csproj'
     arguments: '--configuration $(buildConfiguration) --collect "Xplat Code coverage"'
+
+- script: dotnet test <test-project> --logger trx
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
